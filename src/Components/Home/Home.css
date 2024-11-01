@@ -1,0 +1,74 @@
+.portada {
+    padding: 30px;
+    background-color: AliceBlue; 
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    width: 100%; 
+    max-width: 100%;
+    box-sizing: border-box; 
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    max-width: 100%;
+}
+
+li {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid gainsboro;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(70, 130, 180, 0.5);
+    transition: transform 0.3s, box-shadow 0.3s;
+    max-width: 900px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+li:hover {
+    transform: translateY(-5px); 
+    box-shadow: 0 12px 24px rgba(70, 130, 180, 0.7); 
+}
+
+img {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+
+p {
+    margin: 0;
+    color: darkslategrey;
+    font-size: 18px;
+}
+
+li > p:first-of-type {
+    font-size: 22px;
+    font-weight: bold;
+    color: royalblue;
+    margin-bottom: 10px;
+}
+
+li > p:not(:first-of-type) {
+    font-size: 18px;
+    color: darkslategrey;
+    margin-bottom: 8px; 
+    text-align: center; 
+    font-weight: bold;
+}
+

@@ -1,0 +1,3 @@
+- Botones generales de click -> className = btn-click
+- Boton cerrar sesión -> className= btn-logout
+- Header de navegación -> className="nav-header-sesion"

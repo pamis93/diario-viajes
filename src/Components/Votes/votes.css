@@ -1,0 +1,8 @@
+.votes {
+    display: flex;
+}
+
+.buttonVote {
+    background: transparent;
+    color: red;
+}

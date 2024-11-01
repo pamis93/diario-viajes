@@ -1,0 +1,104 @@
+/* #login.page {
+    background-color: #f0f8ff;
+    padding: 30px;
+    max-width: 400px;
+    margin: 50px auto; 
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.titulo-login {
+    font-size: 28px;
+    font-weight: bold;
+    background: linear-gradient(to right, rgb(11, 244, 165), rgb(0, 117, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h1 {
+    background: linear-gradient(90deg, rgb(11, 244, 165) 0%, rgb(0, 117, 255) 50%, rgb(255, 0, 150) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.login {
+    width: 350px;
+    padding: 30px;
+    margin: auto;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+.login:hover {
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+
+.lbl {
+    display: block;
+    margin-bottom: 20px;
+}
+
+label span {
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 8px;
+    background: linear-gradient(90deg, rgb(11, 244, 165) 0%, rgb(0, 117, 255) 50%, rgb(255, 0, 150) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid rgb(11, 244, 165);
+    border-radius: 8px;
+    box-sizing: border-box;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+input:focus {
+    border-color: rgb(0, 117, 255); 
+}
+
+
+button {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    background-color: rgb(0, 117, 255);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background-color: rgb(255, 0, 150); 
+    transform: translateY(-3px); 
+}
+
+button:active {
+    transform: translateY(0);  
+}
+
+p {
+    
+    font-size: 14px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+ */
