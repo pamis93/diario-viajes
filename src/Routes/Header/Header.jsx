@@ -1,10 +1,7 @@
 import { Link } from "react-router-dom";
-import "./Header.css";
 import { useUserInfo } from "../../hooks/api";
 import { useUser } from "../../UserContext";
-
 import HeaderSesion from "./HeaderSesion";
-
 
 function Header() {
     const userInfo = useUserInfo();
@@ -12,15 +9,17 @@ function Header() {
 
     return (
         <header id="head">
-            <Link to="/">
-                <h1 className="text-3xl font-bold underline" >Inicio</h1>
-            </Link>
+            <div className="flex items-center justify-between">
+                <Link to="/">
+                    {user ? null : <h1>INICIO</h1>} 
+                </Link>
+            </div>
             {user ? (
-                <>
-                    <HeaderSesion />
-                </>
+                <HeaderSesion />
             ) : (
-                <Link to="login">Inicia sesión</Link>
+                <div className="text-gray-500 dark:text-gray-200 ">
+                    <Link to="/login">Inicia sesión</Link>
+                </div>
             )}
         </header>
     );

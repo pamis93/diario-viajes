@@ -1,7 +1,6 @@
 import { useUser } from '../../UserContext.jsx';
 import { useHome } from '../../hooks/api.js';
 import Portada from '../../Routes/Portada/Portada.jsx';
-import "./Home.css";
 import Votes from '../Votes/Votes.jsx';
 
 function Home() {
