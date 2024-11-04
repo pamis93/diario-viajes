@@ -34,11 +34,11 @@ function Votes({ entryId, votes, user, onVote }) {
     };
 
     return (
-        <div className="votes"> 
+        <div className="flex items-center justify-center mt-2"> 
             {/* Botón para votar */}
-            <button className="buttonVote" onClick={handleVote}>❤️</button>
+            <button className="text-red-500 hover:text-red-700 focus:outline-none" onClick={handleVote}>❤️</button>
             {/* Mostrar los votos */}
-            <p className="iconVotes">{Math.floor(currentVotes)}</p>
+            <p className="ml-2 text-gray-700 dark:text-gray-200">{Math.floor(currentVotes)}</p>
         </div>
     );
 }
